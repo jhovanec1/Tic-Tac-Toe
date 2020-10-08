@@ -1,0 +1,115 @@
+body {
+    background: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    position: center;
+    margin: auto;
+    display: grid;
+    grid-gap: 4px;
+    grid-template-rows: 125px 125px 125px 70px;
+    grid-template-columns: 166px 166px 166px;
+}
+
+#one {
+    grid-row: 1;
+    grid-column: 1;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-size: 120px;
+    background: white;
+
+}
+#two {
+    grid-row: 1;
+    grid-column: 2;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-size: 120px;
+    background: white;
+}
+#three {
+    grid-row: 1;
+    grid-column: 3;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-size: 120px;
+    background: white;
+}
+#four {
+    grid-row: 2;
+    grid-column: 1;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-size: 120px;
+    background: white;
+}
+#five {
+    grid-row: 2;
+    grid-column: 2;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-size: 120px;
+    background: white;
+}
+#six {
+    grid-row: 2;
+    grid-column: 3;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-size: 120px;
+    background: white;
+}
+#seven {
+    grid-row: 3;
+    grid-column: 1;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-size: 120px;
+    background: white;
+}
+#eight {
+    grid-row: 3;
+    grid-column: 2;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-size: 120px;
+    background: white;
+}
+#nine {
+    grid-row: 3;
+    grid-column: 3;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-size: 120px;
+    background: white;
+}
+#ten {
+    grid-row: 4;
+    grid-column: 1 /span 3;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    font-size: 60px;
+    background: white;
+}
